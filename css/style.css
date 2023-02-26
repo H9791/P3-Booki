@@ -1,0 +1,740 @@
+html {
+    max-width: 1440px;
+    top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+h1, h2, h3 {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    top: 0px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin: 0px;
+    box-sizing: content-box;
+    border: 1px solid black;
+}
+
+header {
+    box-sizing: border-box;
+    width: 100%;
+}
+
+li {
+    padding: 40px;
+    border-top: 2px solid transparent;
+    border-bottom: 2px solid transparent;
+    box-sizing: border-box;
+}
+
+li:hover {
+    border-top: 2px solid blue;
+    box-sizing: border-box;
+
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    cursor: pointer;
+}
+
+.booki-img {
+    object-fit: cover;
+    width: 61.09px;
+    height: 19px;
+    padding-bottom: 15px;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    margin-top: 0px;
+}
+
+.raleway-700-22 {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+}
+
+.raleway-700-18 {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    margin: 0px;
+}
+
+.raleway-700-16 {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    margin: 0px;
+}
+
+.raleway-700-11 {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 11px;
+    line-height: 13px;
+}
+
+.raleway-600-14 {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    margin-top: 0px;
+}
+
+.raleway-500-16 {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #0065fc;
+}
+
+.raleway-400-16 {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.raleway-400-14 {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+form {
+    display: flex;
+}
+
+.form-loc-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 2em;
+    width: 2em;
+    padding: 0.5em;
+    color: black;
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 15px 0px 0px 15px;
+}
+
+input[type=text] {
+    border: 1px solid #f2f2f2;
+    margin-right: 2px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    padding-left: 10px;
+    text-align: left;
+
+
+}
+
+input[type=button]:hover {
+    cursor: pointer;
+}
+
+button {
+    background-color: #0065FC;
+    border: 1px solid #0065FC;
+    border-radius: 0px 15px 15px 0px;
+    color: white;
+    padding: 0 1em;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+
+}
+
+.magnifier-icon {
+    display: none;
+}
+
+/* --------------FILTRES--------------- */
+.filtres {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 10px;
+}
+
+.p-filtre {
+    padding-right: 30px;
+    margin-top: 10px;
+    font-weight: 600;
+    vertical-align: middle;
+}
+
+.filter-item {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin-top: 12px;
+    padding: 12px 20px 12px 16px;
+    border: 2px solid #f2f2f2;
+    border-radius: 99px;
+    white-space: nowrap;
+}
+
+.filter-item:hover {
+    background-color: #DEEBFF;
+    cursor: pointer;
+}
+
+
+.filtre-icon {
+    margin: 0 5px;
+    padding: 0 5px;
+    color: #0065FC;
+}
+
+.circle {
+    display: inline-block;
+    border: 1px solid #d9d9d9;
+    border-radius: 99px;
+    margin: 5px 15px 5px 0px;
+    padding: 4px 10px;
+}
+
+.heading-populaires {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+}
+
+
+
+.info-disponibles {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 20px;
+}
+/* ------------------END OF FILTERS AND HEADER----------- */
+
+.hebergements-et-populaires {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 60px;
+    gap: 10px;
+
+}
+
+.pbl-20 {
+    padding-bottom: 15px;
+    padding-left: 20px;
+}
+
+.hebergements {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    justify-content: flex-start;
+    align-items: space-around;
+    background-color: #f2f2f2;
+    border-radius: 20px;
+    padding: 15px 10px 10px 10px;
+    width: 66.1%;
+}
+
+.hebergement {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: space-around;
+    width: 100%;
+    height: 450px;
+    gap: 10px;
+}
+
+.hebergement>a {
+    display: block;
+    width: 30%;
+
+}
+
+.card-hebergement {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    border-radius: 20px;
+    background-color: #fff;
+    box-sizing: border-box;
+}
+
+.heb-text-margin {
+    padding-top: 10px;
+    margin-left: 15px;
+    margin-bottom: 20px;
+}
+
+.img-hebergement {
+    object-fit: cover;
+    box-sizing: border-box;
+    width: 100%;
+    height: 114px;
+    border: 5px solid white;
+    border-radius: 15px 15px 0 0;
+}
+
+.desc-hebergement {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 100%;
+    height: 70px;
+    box-sizing: border-box;
+    border:10px solid white;
+    border-radius: 20px;
+}
+
+.afficher {
+    margin: 0;
+    padding: 0;
+}
+
+.heber-afficher {
+    margin: 0px;
+    padding: 0px;
+}
+
+.icone-bleue {
+    margin: 0;
+    color: #0065fc;
+    font-size: 12px;
+}
+
+.icone-grise {
+    color: #f2f2f2;
+    font-size: 12px;
+}
+
+.icone-chart {
+    font-size: 18px;
+}
+
+.populaires {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    background-color: #f2f2f2;
+    border-radius: 20px;
+    width: 31.5%;
+}
+
+.trois-populaires>a {
+    display: block;
+    width: 100%;
+}
+
+.trois-populaires {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 90%;
+    height: 90%;
+}
+
+.card-populaires {
+    display: flex;
+    width: 100%;
+    height: 144px;
+    border-radius: 20px;
+    background-color: #fff;
+    box-sizing: border-box;
+    border: 5px solid white;
+}
+
+.img-populaires {
+    object-fit: cover;
+    width: 36%;
+    height: 100%;
+    box-sizing: border-box;
+    border-radius: 15px 0 0 15px;
+}
+
+.desc-populaires {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    justify-content: space-between;
+    margin: 10px;
+    width: 62%;
+}
+
+.mb-5 {
+    margin-bottom: 5px;
+}
+
+.all-activites>a {
+    display: block;
+    width: 23%;
+}
+
+/* -------ACTIVITES--------- */
+.all-activites {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 20px;
+    gap: 10px;
+
+}
+
+.b {
+    border: 2px solid black;
+}
+
+.card-activite {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    padding-bottom: 10px;
+    box-shadow: 0px 13px 27px -16px rgba(168, 168, 168, 1);
+}
+
+.img-activite {
+    width: 100%;
+    height: 95%;
+    object-fit: cover;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.nom-activite {
+    border-radius: 0px 0px 20px 20px;
+    padding-left: 15px;
+    padding-top: 10px;
+    height: 10%;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+footer {
+    display: flex;
+    margin-top: 60px;
+    padding: 40px 80px;
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: space-between;
+    gap:15px;
+
+
+}
+
+.footer-section {
+    width: 34%;
+    text-align: left;
+}
+
+/******** MEDIA SCREEN************************/
+@media screen and (min-width:768px) and (max-width: 992px) {
+    .hebergements-et-populaires {
+        flex-direction: column;
+        gap:20px;
+    }
+
+    .hebergements {
+        width: 100%;
+    }
+
+    .populaires {
+        width: 100%;
+        height: 220px;
+        padding: 15px 10px 10px 10px;
+        justify-content: space-around;
+    }
+
+    .heading-populaires {
+        width: 95%;
+    }
+
+    .trois-populaires {
+        flex-direction: row;
+        justify-content: space-around;
+        height: 100%;
+        width: 100%;
+    }
+
+    .trois-populaires>a {
+        width: 30%;
+    }
+    .nom-activite {
+        padding-bottom:5px;
+    }
+
+}
+
+
+@media screen and (max-width: 767px) {
+
+    html {
+        top: 0px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    body {
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0px;
+    }
+
+    header {
+        padding: 20px;
+    }
+
+    ul {
+        padding: 0px;
+        width: 100%;
+    }
+
+    nav {
+        padding: 0px;
+        width: 100%;
+    }
+
+    .booki-img {
+        margin-top: 0px;
+        position: relative;
+        top: 0px;
+        padding-bottom: 20px;
+    }
+
+    .top {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+
+    }
+
+    .booki-img {
+        margin-top: 0px;
+    }
+
+    li {
+        width: 50%;
+        border-top: 3px solid transparent;
+        border-bottom: 3px solid transparent;
+        box-sizing: border-box;
+        text-align: center;
+        padding-top: 30px;
+        padding-bottom: 20px;
+    }
+
+    li:hover {
+        border-top: 3px solid transparent;
+        border-bottom: 3px solid blue;
+        box-sizing: border-box;
+    }
+
+    .recherche-label {
+        display: none;
+    }
+
+    .magnifier-icon {
+        display: inline;
+    }
+
+    .filtres {
+        display: grid;
+        grid-template-columns: 140px 140px;
+        grid-template-areas: 'one one'
+            'two three'
+            'four five';
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 11px;
+        line-height: 13px;
+    }
+
+    .filter-item-flex {
+        display: flex;;
+    }
+
+    #item-1 {
+        grid-area: one;
+        
+    }
+
+    #item-2 {
+        grid-area: two;
+       
+    }
+
+    #item-3 {
+        grid-area: three;
+       
+    }
+
+    #fam-padding{
+        padding-right: 81px;
+    }
+
+    #item-4 {
+        grid-area: four;
+       
+    }
+
+    #item-5 {
+        grid-area: five;
+    }
+
+    p.filter-item {
+        font-size: 11px;
+        padding-left: 5px;
+        margin-top: 0px;
+    }
+
+    .filtre-icon {
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+
+    .p-filtre {
+        margin-bottom: 0px;
+    }
+
+    .hebergements-et-populaires {
+        flex-direction: column-reverse;
+    }
+
+    .populaires{
+        width: 100%;
+        padding: 20px 0px;
+        border-radius: 0px;
+    }
+
+    .trois-populaires {
+        padding-top: 10px;
+        width: 95%;
+        height: 480px;
+    }
+
+    .hebergements {
+        width: 100%;
+        border-radius: 0px;
+        background-color: white;
+        box-sizing: border-box;
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+
+    .hebergement {
+        width: 100%;
+        flex-direction: column;
+        height: auto;
+        gap:20px;
+       
+    }
+
+    .card-hebergement {
+        box-shadow: 0px 13px 27px -16px rgba(168, 168, 168, 1);
+    }
+
+    .img-hebergement {
+        width: 100%;
+        height: 100%;
+        max-height:200px;
+    }
+
+    .hebergement>a {
+        display: block;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .heber-afficher {
+        display: none;
+    }
+
+    .all-activites {
+        flex-direction: column;
+        width: 100%;   
+        height: auto;
+    }
+
+    .card-activite {
+        width: 100%;
+        height: 200px;
+        margin-bottom: 20px;
+    }
+
+    .sec-activites{
+        padding:20px;
+    }
+
+    .nom-activite {
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+    footer {
+        flex-direction: column;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .footer-section {
+        width: 100%;
+    }
+
+    .pbl-20 {
+        padding-bottom: 20px;
+        padding-left: 0px;
+    }
+
+    .all-activites>a {
+        display: block;
+        width: 100%;
+    }
+}
