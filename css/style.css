@@ -17,7 +17,7 @@ body {
     padding-right: 50px;
     margin: 0px;
     box-sizing: content-box;
-    border: 1px solid black;
+    
 }
 
 header {
@@ -290,7 +290,7 @@ button {
     gap: 10px;
 }
 
-.hebergement>a {
+.hebergement > a {
     display: block;
     width: 30%;
 
@@ -367,7 +367,7 @@ button {
     width: 31.5%;
 }
 
-.trois-populaires>a {
+.trois-populaires > a {
     display: block;
     width: 100%;
 }
@@ -412,7 +412,7 @@ button {
     margin-bottom: 5px;
 }
 
-.all-activites>a {
+.all-activites > a {
     display: block;
     width: 23%;
 }
@@ -427,9 +427,6 @@ button {
 
 }
 
-.b {
-    border: 2px solid black;
-}
 
 .card-activite {
     display: flex;
@@ -503,7 +500,7 @@ footer {
         width: 100%;
     }
 
-    .trois-populaires>a {
+    .trois-populaires > a {
         width: 30%;
     }
     .nom-activite {
@@ -687,7 +684,7 @@ footer {
         max-height:200px;
     }
 
-    .hebergement>a {
+    .hebergement > a {
         display: block;
         width: 100%;
         box-sizing: border-box;
