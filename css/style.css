@@ -6,7 +6,9 @@ html {
 
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
     margin: 0px;
     padding: 0px;
 }
@@ -17,7 +19,7 @@ body {
     padding-right: 50px;
     margin: 0px;
     box-sizing: content-box;
-    
+
 }
 
 header {
@@ -25,18 +27,30 @@ header {
     width: 100%;
 }
 
+/*********************NAVIGATION*********************/
 li {
-    padding: 40px;
-    border-top: 2px solid transparent;
-    border-bottom: 2px solid transparent;
+    /*margin-top:2px;*/
+    display: flex;
+    height:100px;
+    width:50%;
+    justify-content: center;
+    align-items: center;
+    border-top: 3px solid transparent;
+    border-bottom: 3px solid transparent;
     box-sizing: border-box;
+    
 }
 
-li:hover {
-    border-top: 2px solid blue;
-    box-sizing: border-box;
-
+.navigation:hover{
+    border-top: 3px solid blue;
+    border-bottom: 3px solid transparent;
+    padding:40px;
+    cursor: pointer;
+    width: 100%;
+  
 }
+
+
 
 a {
     text-decoration: none;
@@ -45,8 +59,18 @@ a {
 
 a:hover {
     cursor: pointer;
+    color: #0065fc;
 }
 
+ul {
+    padding:0;
+    list-style-type: none;
+    display: flex;
+    width: 350px;
+    margin-top: 3px;
+}
+
+/********************END OF NAVIGATION***********************/
 .booki-img {
     object-fit: cover;
     width: 61.09px;
@@ -60,11 +84,7 @@ a:hover {
     align-items: center;
 }
 
-ul {
-    list-style-type: none;
-    display: flex;
-    margin-top: 0px;
-}
+
 
 .raleway-700-22 {
     font-family: 'Raleway';
@@ -116,7 +136,7 @@ ul {
     font-size: 16px;
     line-height: 19px;
     text-align: center;
-    color: #0065fc;
+    /*color: #0065fc;*/
 }
 
 .raleway-400-16 {
@@ -251,6 +271,7 @@ button {
     align-items: center;
     margin-bottom: 20px;
 }
+
 /* ------------------END OF FILTERS AND HEADER----------- */
 
 .hebergements-et-populaires {
@@ -288,7 +309,7 @@ button {
     gap: 10px;
 }
 
-.hebergement > a {
+.hebergement>a {
     display: block;
     width: 30%;
 
@@ -325,7 +346,7 @@ button {
     width: 100%;
     height: 70px;
     box-sizing: border-box;
-    border:10px solid white;
+    border: 10px solid white;
     border-radius: 20px;
 }
 
@@ -365,7 +386,7 @@ button {
     width: 31.5%;
 }
 
-.trois-populaires > a {
+.trois-populaires>a {
     display: block;
     width: 100%;
 }
@@ -410,7 +431,7 @@ button {
     margin-bottom: 5px;
 }
 
-.all-activites > a {
+.all-activites>a {
     display: block;
     width: 23%;
 }
@@ -459,7 +480,7 @@ footer {
     background-color: #f2f2f2;
     display: flex;
     justify-content: space-between;
-    gap:15px;
+    gap: 15px;
 
 
 }
@@ -473,7 +494,7 @@ footer {
 @media screen and (min-width:768px) and (max-width: 992px) {
     .hebergements-et-populaires {
         flex-direction: column;
-        gap:20px;
+        gap: 20px;
     }
 
     .hebergements {
@@ -498,11 +519,12 @@ footer {
         width: 100%;
     }
 
-    .trois-populaires > a {
+    .trois-populaires>a {
         width: 30%;
     }
+
     .nom-activite {
-        padding-bottom:5px;
+        padding-bottom: 5px;
     }
 
 }
@@ -526,15 +548,45 @@ footer {
         padding: 20px;
     }
 
+
+    /***********NAVIGATION*************/
+    nav {
+        padding: 0px;
+        width: 100%;
+    }
+
     ul {
         padding: 0px;
         width: 100%;
     }
 
-    nav {
-        padding: 0px;
-        width: 100%;
+    .navigation:hover{
+        border-bottom: 3px solid blue;
+        border-top: 3px solid transparent;
+        padding-top:40px;
+        padding-bottom:40px;
+        cursor: pointer;
+        /*color: #0065fc;*/
     }
+
+    /*li {
+        width: 50%;
+        border-top: 3px solid transparent;
+        border-bottom: 3px solid transparent;
+        box-sizing: border-box;
+        text-align: center;
+        padding-top: 30px;
+        padding-bottom: 20px;
+    }
+
+    li:hover {
+        border-top: 3px solid transparent;
+        border-bottom: 3px solid blue;
+        box-sizing: border-box;
+    }*/
+
+    /****************END OF NAVIGATION*******************/
+
 
     .booki-img {
         margin-top: 0px;
@@ -555,21 +607,7 @@ footer {
         margin-top: 0px;
     }
 
-    li {
-        width: 50%;
-        border-top: 3px solid transparent;
-        border-bottom: 3px solid transparent;
-        box-sizing: border-box;
-        text-align: center;
-        padding-top: 30px;
-        padding-bottom: 20px;
-    }
 
-    li:hover {
-        border-top: 3px solid transparent;
-        border-bottom: 3px solid blue;
-        box-sizing: border-box;
-    }
 
     .recherche-label {
         display: none;
@@ -593,31 +631,32 @@ footer {
     }
 
     .filter-item-flex {
-        display: flex;;
+        display: flex;
+        ;
     }
 
     #item-1 {
         grid-area: one;
-        
+
     }
 
     #item-2 {
         grid-area: two;
-       
+
     }
 
     #item-3 {
         grid-area: three;
-       
+
     }
 
-    #fam-padding{
+    #fam-padding {
         padding-right: 81px;
     }
 
     #item-4 {
         grid-area: four;
-       
+
     }
 
     #item-5 {
@@ -643,7 +682,7 @@ footer {
         flex-direction: column-reverse;
     }
 
-    .populaires{
+    .populaires {
         width: 100%;
         padding: 20px 0px;
         border-radius: 0px;
@@ -668,8 +707,8 @@ footer {
         width: 100%;
         flex-direction: column;
         height: auto;
-        gap:20px;
-       
+        gap: 20px;
+
     }
 
     .card-hebergement {
@@ -679,10 +718,10 @@ footer {
     .img-hebergement {
         width: 100%;
         height: 100%;
-        max-height:200px;
+        max-height: 200px;
     }
 
-    .hebergement > a {
+    .hebergement>a {
         display: block;
         width: 100%;
         box-sizing: border-box;
@@ -694,7 +733,7 @@ footer {
 
     .all-activites {
         flex-direction: column;
-        width: 100%;   
+        width: 100%;
         height: auto;
     }
 
@@ -704,8 +743,8 @@ footer {
         margin-bottom: 20px;
     }
 
-    .sec-activites{
-        padding:20px;
+    .sec-activites {
+        padding: 20px;
     }
 
     .nom-activite {
