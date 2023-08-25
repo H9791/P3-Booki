@@ -1,9 +1,9 @@
-# P3-Booki
+# Project 3 - Booki
 ## Site is live at https://h9791.github.io/P3-Booki/
 
 ### OpenClassrooms P3 - Turn a mock-up into a website with HTML & CSS
 
-![Banner](images/readme/Banner-Booki.png)
+![Banner](images/readme/Banner-Booki.webp)
 
 **Booki** is a website that allows users to find accommodation and activities in the city of their choice.
 The aim is to integrate the interface of the site with HTML and CSS code, based on Figma models.
