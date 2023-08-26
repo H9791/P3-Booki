@@ -1,4 +1,4 @@
-# Project 3 - Booki
+# Booki
 ## Site is live at https://h9791.github.io/P3-Booki/
 
 ### OpenClassrooms P3 - Turn a mock-up into a website with HTML & CSS
@@ -17,7 +17,7 @@ The aim is to integrate the interface of the site with HTML and CSS code, based 
 
 * Accommodations can be filtered by theme, such as budget or ambiance. Filters change color when the mouse is over. *(filters not functional - first version to validate interface)*
 
-# Technical specifications
+## Technical specifications
 Three models have been produced: desktop, tablet and mobile: desktop, tablet and mobile.
 * The breakpoints were defined as such:
   * \> 1024px for computer screens
@@ -33,3 +33,8 @@ background (#F2F2F2).
 * Page layout is created with Flexbox.
 * Use of semantic tags: *header*, *nav*, *h1/h2/h3*, *main*, *section*, *article* and *footer*.
 * Code passes W3C validators [HTML](https://validator.w3.org/) and [CSS](https://jigsaw.w3.org/css-validator/)
+
+## Technologies used
+
+* HTML
+* CSS
